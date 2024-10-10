@@ -1,0 +1,57 @@
+
+
+body{
+    font-family: Arial, sans-serif;
+}
+div.card{
+    color: white;
+    background-color: rgb(2, 2, 185);
+    border-radius: 1.2rem;
+    height: 12rem;
+}
+a.btn{
+    
+    background-color: white;
+    color:  rgb(2, 2, 185);
+    font-size: 1.3rem;
+}
+.aligning{
+    width: 10rem;
+    display:flex ;
+    justify-content:center !important;
+}
+p{
+    display: block;
+}
+@media (max-width: 768px) {
+    div.card {
+        height: auto; 
+        padding: 2rem 1rem;
+    }
+
+    a.btn {
+        font-size: 1.1rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    div.card {
+        padding: 1.5rem 0.5rem;
+        max-width: 90%;
+    }
+
+    a.btn {
+        font-size: 1rem;
+        padding: 0.3rem 0.7rem;
+    }
+
+    p {
+        font-size: 0.85rem;
+    }
+}
